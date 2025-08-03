@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Button3D } from '@/components/Button3D';
 import { HoverCard3D } from '@/components/HoverCard3D';
 import { Card } from '@/components/ui/card';
-import heroImage from '@/assets/hero-bg-space-earth.jpg';
+import heroImage from '@/assets/hero-bg-space-earth-dark.jpg';
 
 export const Home = () => {
   const stats = [
