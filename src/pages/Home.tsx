@@ -59,35 +59,33 @@ export const Home = () => {
               Get Paid for Performance. Not Promises.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
               <Link to="/creator-login">
                 <Button 
-                  size="lg" 
-                  className="glow-button bg-gradient-primary text-lg px-8 py-4"
+                  variant="default"
+                  size="xl"
                 >
-                  <Users className="mr-2 h-5 w-5" />
+                  <Users className="mr-2 h-6 w-6" />
                   Login as Creator
                 </Button>
               </Link>
               
               <Link to="/brand-login">
                 <Button 
-                  variant="outline" 
-                  size="lg" 
-                  className="bg-white/10 border-white/20 text-white hover:bg-white/20 text-lg px-8 py-4"
+                  variant="glass" 
+                  size="xl"
                 >
-                  <TrendingUp className="mr-2 h-5 w-5" />
+                  <TrendingUp className="mr-2 h-6 w-6" />
                   Login as Brand
                 </Button>
               </Link>
               
               <Link to="/campaigns">
                 <Button 
-                  variant="secondary" 
-                  size="lg" 
-                  className="text-lg px-8 py-4"
+                  variant="neon" 
+                  size="xl"
                 >
-                  <Search className="mr-2 h-5 w-5" />
+                  <Search className="mr-2 h-6 w-6" />
                   Explore Campaigns
                 </Button>
               </Link>
@@ -274,10 +272,10 @@ export const Home = () => {
             <p className="text-lg text-muted-foreground mb-6">
               Choose your path or participate in both models to maximize your earnings
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Button 
                 asChild 
-                className="glow-button px-8 py-3"
+                variant="premium"
                 size="lg"
               >
                 <Link to="/campaigns">
@@ -287,8 +285,7 @@ export const Home = () => {
               </Button>
               <Button 
                 asChild 
-                variant="outline" 
-                className="border-white/20 bg-background/50 px-8 py-3"
+                variant="glass" 
                 size="lg"
               >
                 <Link to="/clip-hub">
@@ -380,9 +377,9 @@ export const Home = () => {
             </p>
             <div className="flex justify-center">
               <Link to="/campaigns">
-                <Button size="lg" className="glow-button bg-gradient-primary text-lg px-12 py-4">
+                <Button variant="default" size="xl">
                   Start Creating Today
-                  <ArrowRight className="ml-2 h-5 w-5" />
+                  <ArrowRight className="ml-2 h-6 w-6" />
                 </Button>
               </Link>
             </div>
