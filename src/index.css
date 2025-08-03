@@ -101,7 +101,7 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground font-rajdhani;
-    background: url('./assets/hero-bg-stunning.jpg'), var(--gradient-bg);
+    background: url('./assets/hero-bg-starry.jpg'), var(--gradient-bg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
